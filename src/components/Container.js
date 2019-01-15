@@ -91,7 +91,7 @@ export default class Container extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Button onClick={this.toggleTitle} btnText="Toggle Title"/>
         { this.state.showTitle && <Title titleText="Title"/> }
         <Paragraph 

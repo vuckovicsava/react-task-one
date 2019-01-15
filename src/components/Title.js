@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function Title(props) {
-  const { element, titleText, color, bgColor } = props;
+export default function Title({ element, titleText, color, bgColor }) {
   const styles = { color, backgroundColor: bgColor };
 
   switch(element) {

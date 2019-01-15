@@ -1,9 +1,32 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 6px;
+}
+
+a {
+  padding: 4px 12px 8px;
+  margin-right: 12px;
+  border-radius: 6px;
+}
+
+p {
+  font-weight: bold;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
 }

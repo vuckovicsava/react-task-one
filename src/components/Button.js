@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function Button(props) {
-  const { onClick, btnText, color, bgColor, isHref } = props;
+export default function Button({ onClick, btnText, color, bgColor, isHref }) {
   const styles = { color, backgroundColor: bgColor };
 
   return (isHref) 
