@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Paragraph() {
+export default function Paragraph(props) {
+  const { text, paragraphSize, color, bgColor } = props;
+
   return (
-    <div>
-      
-    </div>
-  )
+    <p style={{ fontSize: paragraphSize, backgroundColor: bgColor, color }}>
+      {text}
+    </p>
+  );
 }
